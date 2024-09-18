@@ -1,14 +1,15 @@
 package co.edu.uniandes.dse.parcialprueba.services;
 
-import co.edu.uniandes.dse.parcialprueba.entities.MedicoEntity;
-import co.edu.uniandes.dse.parcialprueba.entities.EspecialidadEntity;
-import co.edu.uniandes.dse.parcialprueba.exceptions.EntityNotFoundException;
-import co.edu.uniandes.dse.parcialprueba.repositories.MedicoRepository;
-import co.edu.uniandes.dse.parcialprueba.repositories.EspecialidadRepository;
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.Optional;
+import co.edu.uniandes.dse.parcialprueba.entities.EspecialidadEntity;
+import co.edu.uniandes.dse.parcialprueba.entities.MedicoEntity;
+import co.edu.uniandes.dse.parcialprueba.exceptions.EntityNotFoundException;
+import co.edu.uniandes.dse.parcialprueba.repositories.EspecialidadRepository;
+import co.edu.uniandes.dse.parcialprueba.repositories.MedicoRepository;
 
 @Service
 public class MedicoEspecialidadService {

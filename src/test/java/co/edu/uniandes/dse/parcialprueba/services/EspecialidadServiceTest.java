@@ -1,14 +1,15 @@
 package co.edu.uniandes.dse.parcialprueba.services;
 
-import co.edu.uniandes.dse.parcialprueba.entities.EspecialidadEntity;
-import co.edu.uniandes.dse.parcialprueba.exceptions.IllegalOperationException;
-import co.edu.uniandes.dse.parcialprueba.repositories.EspecialidadRepository;
+import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
 
-import static org.junit.jupiter.api.Assertions.*;
+import co.edu.uniandes.dse.parcialprueba.entities.EspecialidadEntity;
+import co.edu.uniandes.dse.parcialprueba.exceptions.IllegalOperationException;
+import co.edu.uniandes.dse.parcialprueba.repositories.EspecialidadRepository;
 
 @SpringBootTest
 @Transactional
